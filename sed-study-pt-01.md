@@ -117,7 +117,7 @@ Tree Twice
 $ sed 's/[a-h]/*/g' text.txt
 ```
 
-### Replace all lowercase character ocurrencies
+### Replace all uppercase character ocurrencies
 - `[A-Z]` on 's/match_pattern/replacement_pattern/g'
 ```
 $ sed -i 's/t/T/g' text.txt
@@ -153,7 +153,7 @@ $ sed 's/[A-z]/*/g' text.txt
 **** ******
 ```
 
-### Replace all lowercase and uppercase occurencies
+### Replace all alphanumeric occurencies
 - `[A-z0-9]` on 's/match_pattern/replacement_pattern/g'
 - `[0-z]` on 's/match_pattern/replacement_pattern/g'
 ```
